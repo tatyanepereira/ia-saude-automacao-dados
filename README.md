@@ -38,3 +38,45 @@ Gestão de Recursos: Aborda o uso da IA para prever demanda, otimizar a alocaç�
 Educação e Simulação: Menciona o uso de hospitais virtuais (como o "Agent Hospital" na China) e simuladores para formação médica.
 Matriz de Riscos: Lista desvantagens críticas como a falta de transparência ("caixas pretas"), infraestruturas inadequadas e vieses nos dados de treino.
 
+## 🧠 Engenharia de Prompts e "Cicatrizes" (O Processo)
+
+### ⚡ Prompt Inicial (Tentativa e Erro)
+> "Resuma o que os documentos dizem sobre tecnologia."
+*   **Dificuldade encontrada:** A resposta foi muito genérica e não trouxe insights práticos para a área de dados.
+
+### 🛠️ Prompt Refinado
+> "Aja como um Engenheiro de Dados: Identifique nas fontes quais são os 3 principais gargalos na automação de dados de saúde."
+
+> "Aja como uma Engenheira de Dados sênior. Com base nas fontes fornecidas, estruture um plano de automação para a ingestão de dados clínicos que garanta a integridade e a conformidade com a LGPD."
+
+*   **Resultado:** A IA entregou uma estrutura de pipeline técnica, citando os pontos de segurança presentes nos documentos.
+
+📖 Miniguia de Estudo: IA e Automação de Dados
+1. Resumos Estruturados
+Nesta etapa, consolidei os principais pilares do estudo realizado através da curadoria de documentos:
+
+A Revolução dos Dados na Saúde: A transição do registro manual para o digital permitiu a aplicação de modelos de IA para identificar padrões em larga escala, reduzindo erros de diagnóstico e otimizando a gestão hospitalar.
+
+Papel da IA Generativa: Ferramentas como o NotebookLM não apenas resumem informações, mas atuam como motores de busca semântica, permitindo que profissionais técnicos encontrem respostas precisas dentro de fontes confiáveis (sem as famosas "alucinações").
+
+Segurança e Governança: A automação de dados deve, obrigatoriamente, passar por camadas de anonimização e conformidade com a LGPD, garantindo que a inovação não comprometa a privacidade do paciente.
+
+
+2. Glossário de Conceitos-Chave
+Para facilitar futuras consultas, estruturei os termos técnicos essenciais aprendidos durante o bootcamp:
+
+[Glossario.pdf](https://github.com/user-attachments/files/27307667/Glossario.pdf)
+
+Para Análise Técnica:
+Markdown
+"Aja como uma Engenheira de Dados. Analise o documento [NOME DO ARQUIVO] e identifique os principais desafios de infraestrutura mencionados para a implementação de automação."
+
+Para Resumo Executivo:
+Markdown
+"Sintetize em 5 tópicos os impactos financeiros da implementação de IA na gestão de dados de saúde, utilizando apenas as fontes fornecidas."
+
+Para Verificação de Conformidade:
+Markdown
+"Com base nos arquivos de curadoria, quais são os 3 requisitos fundamentais de segurança que devem ser seguidos para tratar dados sensíveis conforme a LGPD?"
+
+
